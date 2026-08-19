@@ -2,6 +2,8 @@
 
 > 📦 仓库地址：https://github.com/SongYuhui14/dsh-code-vetter
 
+![演示](docs-demo.png)
+
 DeepSeek Harness (DSH) 插件：**审查代码安全性**——专门针对 AI 生成代码（也适用于任何代码），检测常见安全漏洞。
 
 ## 解决什么问题
