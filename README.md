@@ -66,6 +66,16 @@ lib/scan.js             — 扫描引擎（单文件/多文件/评分/报告）
 lib/index.js            — 插件入口
 ```
 
+
+## 相关作品
+
+- [crypto-evaluation-assistant](https://github.com/SongYuhui14/crypto-evaluation-assistant) — 密评检测辅助
+- [ai-security-assistant](https://github.com/SongYuhui14/ai-security-assistant) — AI 安全评估
+- [dsh-plugin-conflict-advisor](https://github.com/SongYuhui14/dsh-plugin-conflict-advisor) — 插件冲突顾问
+- [dsh-plugin-chooser](https://github.com/SongYuhui14/dsh-plugin-chooser) — 插件评分推荐
+- [dsh-plugin-compat-checker](https://github.com/SongYuhui14/dsh-plugin-compat-checker) — 插件兼容测试
+- [dsh-publisher](https://github.com/SongYuhui14/dsh-publisher) — 一键发布助手
+
 ## 许可
 
 MIT
