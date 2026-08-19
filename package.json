@@ -1,0 +1,41 @@
+{
+  "name": "dsh-code-vetter",
+  "version": "0.1.0",
+  "description": "DSH plugin: AI code security reviewer — scan code for SQL/command injection, hardcoded secrets, dangerous functions, weak crypto, auth bypass, insecure deps (OWASP/CWE-aligned). AI 代码安全审查器：审查注入/密钥泄露/危险函数/弱加密等安全问题。",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./scan": {
+      "default": "./lib/scan.js"
+    },
+    "./rules": {
+      "default": "./rules/security-rules.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/scan.js",
+    "rules/security-rules.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "security",
+    "code-review",
+    "code-audit",
+    "vulnerability",
+    "ai-code",
+    "安全审查"
+  ],
+  "license": "MIT",
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  }
+}
